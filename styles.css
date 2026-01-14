@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+}
+
+.sidebar {
+  background-color: #0077b6;
+  height: 100vh;
+}
+
+.dashboard-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.dashboard-flex img {
+  width: 20%;
+  padding: 5px;
+}
+
+.dashboard-flex p {
+  font-size: 28px;
+  font-weight: 500;
+  color: white;
+  padding-top: 5px;
+  font-family: Helvetica, sans-serif;
+}
