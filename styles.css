@@ -8,6 +8,8 @@
   grid-template-columns: 220px 1fr;
 }
 
+/* start of sidebar */
+
 .sidebar {
   background-color: #0077b6;
   height: 100vh;
@@ -31,12 +33,21 @@
   font-family: Helvetica, sans-serif;
 }
 
+.col {
+  display: grid;
+  grid-template-columns: 10px 1fr;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
 .col > p {
   color: white;
-  padding: 10px;
-  padding-left: 25px;
+  padding-left: 15px;
 }
 
 .grid {
   padding-bottom: 15px;
 }
+
+/* end of sidebar */
