@@ -30,3 +30,13 @@
   padding-top: 5px;
   font-family: Helvetica, sans-serif;
 }
+
+.col > p {
+  color: white;
+  padding: 10px;
+  padding-left: 25px;
+}
+
+.grid {
+  padding-bottom: 15px;
+}
