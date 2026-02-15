@@ -133,3 +133,85 @@
 button:hover {
   cursor: pointer;
 }
+
+.main-bar {
+  display: grid;
+  grid-template-columns: 1fr 330px;
+}
+
+.title {
+  padding: 10px;
+  font-weight: 600;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.card {
+  background-color: white;
+  width: 300px;
+  height: 150px;
+  margin: 10px;
+  border-radius: 10px;
+  border-left: 5px solid orange;
+  align-content: center;
+  padding-left: 10px;
+}
+
+.card h2,
+.announcement-card h2,
+.trending-card h2 {
+  font-size: 14px;
+}
+
+.card p,
+.announcement-card h3,
+.trending-card p {
+  font-size: 12px;
+}
+
+.announcement-card p {
+  font-size: 10px;
+  font-weight: 100;
+}
+
+.announcement-card,
+.trending-card {
+  background-color: white;
+  width: 200px;
+  height: 180px;
+  margin: 10px;
+  border-radius: 10px;
+  padding-left: 10px;
+  display: grid;
+}
+
+.announcement-card div:not(:last-child) {
+  border-bottom: 1px solid gray;
+}
+
+.announcement-card div {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.trending-card {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.trending-profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile-pic {
+  background-color: black;
+  border: 2px solid;
+  height: 40px;
+  width: 40px;
+  border-radius: 30px;
+  margin-right: 10px;
+}
